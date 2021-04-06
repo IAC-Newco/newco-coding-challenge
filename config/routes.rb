@@ -6,8 +6,8 @@ Rails.application.routes.draw do
       resources :feed, only: [] do
         collection do
           get 'ordered_by_creation'
-          get 'ordered_by_view_count'
-          get 'ordered_by_following'
+          get 'for_user'
+          get 'top'
           get 'custom'
         end
       end
