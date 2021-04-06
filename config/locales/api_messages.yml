@@ -1,0 +1,5 @@
+en:
+  error_messages:
+    # General Authentication
+    unauthenticated_request:
+      title: "Unauthenticated request."
