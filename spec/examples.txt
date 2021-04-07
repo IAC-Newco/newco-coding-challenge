@@ -1,0 +1,26 @@
+example_id                                                | status | run_time        |
+--------------------------------------------------------- | ------ | --------------- |
+./spec/acceptance/api/v1/feed_acceptance_spec.rb[1:1:1:1] | passed | 0.09052 seconds |
+./spec/acceptance/api/v1/feed_acceptance_spec.rb[1:1:2:1] | passed | 0.0979 seconds  |
+./spec/acceptance/api/v1/feed_acceptance_spec.rb[1:2:1:1] | passed | 0.11876 seconds |
+./spec/acceptance/api/v1/feed_acceptance_spec.rb[1:2:2:1] | failed | 0.10739 seconds |
+./spec/acceptance/api/v1/feed_acceptance_spec.rb[1:3:1:1] | passed | 0.11441 seconds |
+./spec/acceptance/api/v1/feed_acceptance_spec.rb[1:3:2:1] | failed | 0.1132 seconds  |
+./spec/acceptance/api/v1/feed_acceptance_spec.rb[1:4:1:1] | passed | 0.05174 seconds |
+./spec/models/follow_spec.rb[1:1:1]                       | passed | 0.02676 seconds |
+./spec/models/follow_spec.rb[1:1:2]                       | passed | 0.03551 seconds |
+./spec/models/like_spec.rb[1:1:1]                         | passed | 0.06534 seconds |
+./spec/models/like_spec.rb[1:1:2]                         | passed | 0.03016 seconds |
+./spec/models/post_spec.rb[1:1:1]                         | passed | 0.02482 seconds |
+./spec/models/post_spec.rb[1:1:2]                         | passed | 0.05056 seconds |
+./spec/models/post_spec.rb[1:1:3]                         | passed | 0.21829 seconds |
+./spec/models/post_spec.rb[1:2:1]                         | passed | 0.02713 seconds |
+./spec/models/user_spec.rb[1:1:1]                         | passed | 0.02287 seconds |
+./spec/models/user_spec.rb[1:1:2]                         | passed | 0.02311 seconds |
+./spec/models/user_spec.rb[1:1:3]                         | passed | 0.0241 seconds  |
+./spec/models/user_spec.rb[1:1:4]                         | passed | 0.02221 seconds |
+./spec/models/user_spec.rb[1:1:5]                         | passed | 0.06963 seconds |
+./spec/models/user_spec.rb[1:2:1:1]                       | passed | 0.04704 seconds |
+./spec/models/view_spec.rb[1:1:1]                         | passed | 0.02353 seconds |
+./spec/models/view_spec.rb[1:1:2]                         | passed | 0.03163 seconds |
+./spec/sanity_spec.rb[1:1]                                | passed | 0.02263 seconds |
