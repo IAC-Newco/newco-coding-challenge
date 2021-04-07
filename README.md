@@ -1,7 +1,7 @@
 ## Newco Coding Challenge
 
 ### Getting started
-This project uses ruby 3.0.1 and is configued to use [rvm](https://rvm.io), but feel to use whichever version manager you prefer. It also utilizes a [Postgres](https://www.postgresql.org/) database.
+This project uses ruby 3.0.1 and is configued to use [rvm](https://rvm.io), but feel free to use whichever version manager you prefer. It also utilizes a [Postgres](https://www.postgresql.org/) database.
 ```
 git clone https://github.com/IAC-Newco/newco-coding-challenge && cd newco-coding-challenge
 bundle
@@ -24,7 +24,7 @@ The task is to implement 3 different feed API methods, which can be found at `ap
 Implement a feed based on view status of a post and following status of the poster.
 
 Sort -> First, we want to prioritize posts that have not been viewed by current_user. Then, we want to divide these unviewed posts into buckets based on the day of creation. Within each day we want to show posts from users that the current_user follows first then other posts. After serving all unviewed posts as described above, we can just served already viewed content based on post creation timestamp
-​
+
 Example - current_user follows User A and User B but not User C and User D. in general the sort order would be the following:
 1. all unviewed posts created by User A and User B on 4/6
 2. all unviewed posts created by User C and User D on 4/6
